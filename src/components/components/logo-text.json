@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_logo_texts",
+  "info": {
+    "displayName": "logoText"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean"
+    }
+  }
+}
