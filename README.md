@@ -1,57 +1,62 @@
-# 🚀 Getting started with Strapi
+# Application Type
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+# Headless Content Management System (CMS) built on top of Node.js using Strapi.
 
-### `develop`
+Key Features:
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+Private application
+Built on top of Node.js (version 14 or higher) and Strapi (version 3.6.0 or higher)
+Has API endpoints for interacting with the application
+Has a separate directory structure for API routes, controllers, services, and admin panel configuration
 
-```
-npm run develop
-# or
-yarn develop
-```
+# Directory Structure
 
-### `start`
+The application has the following directory structure:
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+`src/api: API routes and controllers`
+`src/api/services: API services`
+src/admin: Admin panel configuration and code
+src/config: Application configuration files
+Additional Notes: The application has separate controllers, services, and routes for different API endpoints (e.g., home-page, summary, global).
 
-```
-npm run start
-# or
-yarn start
-```
+# Backend Application
 
-### `build`
+This is a private Strapi application, built on top of Node.js.
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+## Getting Started
 
-```
-npm run build
-# or
-yarn build
-```
+To get started with this application, follow these steps:
 
-## ⚙️ Deployment
+### Prerequisites
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+* Node.js (version 14 or higher)
+* Strapi (version 3.6.0 or higher)
 
-## 📚 Learn more
+### Installation
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+1. Clone the repository: `git clone https://github.com/your-username/your-repo-name.git`
+2. Install dependencies: `npm install` or `yarn install`
+3. Start the application: `npm run develop` or `yarn develop`
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+### Building the Application
 
-## ✨ Community
+To build the application, run the following command:
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+* `npm run build` or `yarn build`
 
----
+## API Endpoints
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+This application has a single API endpoint:
+
+* `home-page`: Returns data for the home page.
+
+## Directory Structure
+
+* `src/api`: API routes and controllers
+* `src/api/services`: API services
+* `src/admin`: Admin panel configuration and code
+* `src/config`: Application configuration files
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request with your changes.
