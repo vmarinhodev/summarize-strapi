@@ -4,20 +4,11 @@
 
 Key Features:
 
-Private application
-Built on top of Node.js (version 14 or higher) and Strapi (version 3.6.0 or higher)
-Has API endpoints for interacting with the application
-Has a separate directory structure for API routes, controllers, services, and admin panel configuration
-
-# Directory Structure
-
-The application has the following directory structure:
-
-`src/api: API routes and controllers`
-`src/api/services: API services`
-src/admin: Admin panel configuration and code
-src/config: Application configuration files
-Additional Notes: The application has separate controllers, services, and routes for different API endpoints (e.g., home-page, summary, global).
+Private application\
+Built on top of Node.js (version 14 or higher) and Strapi (version 3.6.0 or higher)\
+Has API endpoints for interacting with the application\
+Has a separate directory structure for API routes, controllers, services, and admin panel configuration\
+The application has separate controllers, services, and routes for different API endpoints (e.g., home-page, summary, global)\
 
 # Backend Application
 
@@ -56,7 +47,3 @@ This application has a single API endpoint:
 * `src/api/services`: API services
 * `src/admin`: Admin panel configuration and code
 * `src/config`: Application configuration files
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request with your changes.
