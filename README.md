@@ -1,6 +1,6 @@
-# Application Type
+# Strapi Backend
 
-# Headless Content Management System (CMS) built on top of Node.js using Strapi.
+### Headless Content Management System (CMS) built on top of Node.js using Strapi.
 
 Key Features:
 
