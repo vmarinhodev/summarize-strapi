@@ -91,7 +91,7 @@
 //   };
 // };
 
-
+const path = require('path');
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
@@ -101,10 +101,8 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'postgres'),
       user: env('DATABASE_USERNAME', 'postgres.muclrlqzjwamgesvktau'),
       password: env('DATABASE_PASSWORD', 'eA8TNNfC2B5r'),
-      ssl: env.bool('DATABASE_SSL', false) && {
-        rejectUnauthorized: env.bool('DATABASE_SSL_REJECT_UNAUTHORIZED', true),
-      },
+      ssl: env.bool('DATABASE_SSL', false)
     },
-    debug: false,
+    useNullAsDefault: true,
   },
 })
