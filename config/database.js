@@ -105,6 +105,5 @@ module.exports = ({ env }) => ({
         rejectUnauthorized: env.bool('DATABASE_SSL_REJECT_UNAUTHORIZED', true),
       },
     },
-    useNullAsDefault: true,
   },
 })
