@@ -1,0 +1,12 @@
+# Exported from Render on 2024-11-21T10:14:34Z
+databases:
+- name: summarize-strapi-db
+  databaseName: summarize_strapi
+  user: summarize_strapi_user
+  plan: free
+  region: oregon
+  ipAllowList:
+  - source: 0.0.0.0/0
+    description: everywhere
+  postgresMajorVersion: "16"
+version: "1"
